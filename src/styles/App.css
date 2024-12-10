@@ -1,0 +1,30 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the container fills the screen height */
+}
+
+.content {
+  flex: 1; /* This makes the content expand to fill available space */
+  padding-bottom: 80px; /* Adds space to prevent footer overlap */
+}
+
+.main-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #2c3e50; /* Dark gray-blue for elegance */
+  margin: 20px 0; /* Space around the title */
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #34495e;
+  color: white;
+  font-size: 1rem;
+  position: fixed; /* Keeps footer at the bottom */
+  bottom: 0;
+  left: 0; /* Aligns to the left edge */
+  width: 100%; /* Spans the full width */
+  z-index: 10; /* Ensures it sits above other content */
+}
