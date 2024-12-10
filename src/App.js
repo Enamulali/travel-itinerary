@@ -1,10 +1,11 @@
 import React from "react";
+import ItineraryForm from "./components/ItineraryForm";
 
 const App = () => {
   return (
     <div>
       <h1>Travel Itinerary Creator</h1>
-      {/* Components will go here */}
+      <ItineraryForm />
     </div>
   );
 };
